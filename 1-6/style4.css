@@ -1,0 +1,63 @@
+/* reset.css */
+
+* {
+	margin: 0;
+}
+
+.clearfix::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+.wrapper {
+    margin: 0;
+    width: 350px;
+}
+.h1 {
+    float: left;
+	background-color: #FFFF66;
+    width: 150px;
+    height: 100px;
+}
+.h2 {
+    float: left;
+	background-color: #666666;
+	width: 200px;
+	height: 100px;
+}
+.c1 {
+    float: left;
+    background-color: #FF3333;
+    width: 150px;
+    height: 150px;
+}
+.c2 {
+    float: left;
+    background-color: #3366FF;
+    width: 100px;
+    height: 150px;
+}
+.c3 {
+    float: left;
+    background-color: #669933;
+    width: 100px;
+    height: 150px;
+}
+.f1 {
+    float: left;
+	background-color: #FF9966;
+    width: 150px;
+    height: 100px;
+}
+.f2 {
+    float: left;
+    background-color: #FFFFCC;
+    width: 100px;
+    height: 100px;
+}
+.f3 {
+    float: left;
+    background-color: #330066;
+    width: 100px;
+    height: 100px;
+}
